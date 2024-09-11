@@ -1,0 +1,420 @@
+/* :root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.allWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.questionDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.bodyText {
+  white-space: pre-wrap;
+}
+
+.questionTagsWrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.userCreatedInfo {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  border-radius: var(--norm-border-radius);
+  padding: 20px;
+  width: fit-content;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.userCreatedInfo > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerEverything {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modShield {
+  width: 25px;
+  height: 25px;
+}
+
+.commentInput {
+  border: 1px solid var(--bg-color-blue);
+  border-radius: 10px;
+  height: 15px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.addCommentBtn {
+  border: none;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  border-radius: var(--norm-border-radius);
+  height: 35px;
+  width: fit-content;
+  font-size: 15px;
+}
+
+.addCommentBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.commentForm {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.commentListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+} */
+
+/* SEPARATE */
+
+/* :root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.allWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; 
+  width: 100%; 
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.questionDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.bodyText {
+  white-space: pre-wrap;
+}
+
+.questionTagsWrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.userCreatedInfo {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  border-radius: var(--norm-border-radius);
+  padding: 20px;
+  width: fit-content;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.userCreatedInfo > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerEverything {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modShield {
+  width: 25px;
+  height: 25px;
+}
+
+.commentInput {
+  border: 1px solid var(--bg-color-blue);
+  border-radius: 10px;
+  height: 15px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.addCommentBtn {
+  border: none;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  border-radius: var(--norm-border-radius);
+  height: 35px;
+  width: fit-content;
+  font-size: 15px;
+}
+
+.addCommentBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.commentForm {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.commentListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .allWrapper {
+    padding: 5px;
+  }
+
+  .questionDetailsWrapper {
+    width: 100%;
+    padding: 5px;
+  }
+} */
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.allWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Set a max-width for responsiveness */
+  width: 100%; /* Make it full width on smaller screens */
+  padding: 10px; /* Add some padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.questionDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Make it full width on smaller screens */
+  padding: 10px; /* Add some padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.bodyText {
+  white-space: pre-wrap;
+}
+
+.questionTagsWrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allow tags to wrap on smaller screens */
+  gap: 5px;
+}
+
+.userCreatedInfo {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  border-radius: var(--norm-border-radius);
+  padding: 10px; /* Adjust padding for spacing */
+  max-width: 200px; /* Set a max-width for the userCreatedInfo */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+@media (max-width: 768px) {
+  .userCreatedInfo {
+    width: 100%;
+  }
+}
+
+.userCreatedInfo > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
+
+.centerEverything {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modShield {
+  width: 25px;
+  height: 25px;
+}
+
+.commentInput {
+  border: 1px solid var(--bg-color-blue);
+  border-radius: 10px;
+  height: 35px; /* Increase height for better touch input */
+  font-size: 15px;
+  padding: 10px;
+  width: 100%; /* Make it full width on smaller screens */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.addCommentBtn {
+  border: none;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  border-radius: var(--norm-border-radius);
+  height: 35px;
+  width: 100%; /* Make it full width on smaller screens */
+  font-size: 15px;
+}
+
+.addCommentBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column; /* Stack elements in a column on smaller screens */
+  gap: 10px; /* Increase gap for better spacing on smaller screens */
+}
+
+.commentListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Make it full width on smaller screens */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .allWrapper {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .questionDetailsWrapper {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .userCreatedInfo {
+    padding: 5px; /* Adjust padding for smaller screens */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+  .commentInput {
+    height: 25px; /* Reduce height for smaller screens */
+  }
+
+  .addCommentBtn {
+    height: 30px; /* Reduce height for smaller screens */
+  }
+
+  .centerEverything {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.editQuestionWrapper {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cancelEditBtn {
+  width: 100px;
+}
+
+.submitEditBtn {
+  width: 100px;
+}
+
+.deleteCommentBtn {
+  color: red;
+  opacity: 0;
+}
+
+.deleteCommentBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.commentItem {
+  display: flex;
+  gap: 10px;
+}
+
+.commentItem:hover {
+  .deleteCommentBtn {
+    opacity: 1;
+  }
+}
+
+.colorBlue {
+  color: var(--bg-color-blue);
+}
+
+@media (max-width: 768px) {
+  .commentItem {
+    display: block;
+  }
+}

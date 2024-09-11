@@ -1,0 +1,45 @@
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 30px;
+}
+
+.form > input {
+  border: 1px solid var(--bg-color-blue);
+  border-radius: 10px;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+}
+
+.form > button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.centerErr {
+  display: flex;
+  justify-content: center;
+}
+
+.signInWithGoogleBtn {
+  width: 100%;
+  border: 1px solid black !important;
+  margin: 0;
+}

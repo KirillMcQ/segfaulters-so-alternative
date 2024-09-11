@@ -1,0 +1,17 @@
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.errHeader {
+  background-color: red;
+  width: 700px;
+  height: 50px;
+  border-radius: var(--norm-border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

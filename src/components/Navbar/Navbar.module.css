@@ -1,0 +1,133 @@
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlink {
+  color: var(--text-color-dark);
+  text-decoration: none;
+  font-size: 20px;
+  align-self: center;
+}
+
+.logo {
+  font-size: 30px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  width: 2em;
+  height: 1.5em;
+}
+
+.threeLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.authBtns {
+  display: flex;
+}
+
+.navbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 20px;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  text-decoration: none;
+  border-radius: var(--norm-border-radius);
+}
+
+.navbtn:hover {
+  opacity: 0.9;
+}
+
+hr {
+  height: 0.5px;
+  border: none;
+  background-color: #333;
+}
+
+.active {
+  color: var(--bg-color-blue);
+}
+
+.welcomeLink {
+  text-decoration: none;
+  color: var(--text-color-dark);
+}
+
+.askQuestionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 20px;
+  width: 150px;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-light);
+  text-decoration: none;
+  border-radius: var(--norm-border-radius);
+}
+
+.userProfileLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+}
+
+.modShield {
+  height: 30px;
+  width: 30px;
+}
+
+.noDecoration {
+  list-style-type: none;
+}
+
+.logoutLink {
+  color: var(--text-color-orange) !important;
+}
+
+.navbarToggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.navbarToggler {
+  border: 0 !important;
+}
+
+.searchIcon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}
+.navbarSearch {
+  width: 100px;
+}

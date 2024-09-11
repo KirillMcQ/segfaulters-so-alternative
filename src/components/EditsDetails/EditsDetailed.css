@@ -1,0 +1,37 @@
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #ff8c42;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.allWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorBlue {
+  color: var(--bg-color-blue);
+}
+
+.editsListWrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.editItem {
+  width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .editsListWrapper {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}

@@ -1,0 +1,65 @@
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+.centerWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .centerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    gap: 30px;
+  }
+}
+
+.amtUpvotesWrapper,
+.amtSuggestionsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceLevelTitle {
+  text-align: center;
+}
+
+.userQuestions {
+  display: flex;
+  justify-content: center;
+}
+
+.allWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.highlightNumberOrange {
+  color: var(--text-color-orange);
+}
+
+.highlightNumberBlue {
+  color: var(--bg-color-blue);
+}
+
+.experienceLevel {
+  color: var(--text-color-dark);
+}
+
+.userQuestionsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

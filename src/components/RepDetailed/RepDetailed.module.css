@@ -1,0 +1,31 @@
+:root {
+  --text-color-dark: #373f51;
+  --text-color-light: #fcfffd;
+  --text-color-orange: #f56476;
+  --bg-color-blue: #2298e2;
+  --norm-border-radius: 10px;
+}
+
+.centerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.expLevelText {
+  color: var(--text-color-orange);
+}
+
+.colorDark {
+  color: var(--text-color-dark) !important;
+}
+
+.colorOrange {
+  color: var(--text-color-orange) !important;
+}
+
+.colorBlue {
+  color: var(--bg-color-blue) !important;
+}
